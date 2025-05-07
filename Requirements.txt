@@ -1,0 +1,6 @@
+openai-whisper
+librosa
+pychord
+numpy
+moviepy
+ffmpeg-python
