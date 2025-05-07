@@ -1,6 +1,6 @@
-from audio_utils import convert_to_wav
-from transcription import transcribe_audio
-from chord_detection import detect_chords
+from Audio_Conversion import convert_to_wav
+from Lyrics import transcribe_audio
+from Chord_Detection import detect_chords
 
 def generate_lyrics_with_chords(input_audio):
     wav_file = convert_to_wav(input_audio)

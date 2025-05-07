@@ -1,4 +1,4 @@
-from moviepy.editor import AudioFileClip
+from moviepy import AudioFileClip
 
 def convert_to_wav(input_audio_path, output_audio_path="converted.wav"):
     audio_clip = AudioFileClip(input_audio_path)

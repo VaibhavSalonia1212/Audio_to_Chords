@@ -1,0 +1,7 @@
+Install these:
+pip install openai-whisper
+pip install librosa
+pip install pychord
+pip install numpy
+pip install moviepy
+pip install ffmpeg-python
